@@ -1,11 +1,11 @@
 manifest:
   remotes:
     - name: slicemk
-      url-base: https://github.com/slicemk
+      url-base: https://github.com/wdtamagi
   projects:
-    - name: zmk
+    - name: slice-zmk
       remote: slicemk
-      revision: v20220727
+      revision: v20220204-dactyl
       import: app/west.yml
   self:
     path: config
